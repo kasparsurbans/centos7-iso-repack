@@ -7,7 +7,7 @@ to repack iso do the following:
 
 1. Download Centos 7 ISO into the working dir
 2. Edit ks.cfg according to your needs
-3. ./create.sh downloaded-iso.iso
+3. sudo ./create.sh downloaded-iso.iso
 4. Burn the newly created CentOS-repacked.iso to CD, DVD or mount it via Virtualbox and use at your own risk :)
 
 to create a bootable usb containing Centos 7 iso with a specific ks.cfg
