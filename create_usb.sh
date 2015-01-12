@@ -82,14 +82,8 @@ then
 		echo "Copy our Kickstart script to the BOOT partition of device"
 		cp $kickstart_file $boot_dir/ks.cfg
 		if [ $? != 0 ]; then echo "Command FAILED, stopping script";exit; fi
-                echo "Unmounting device and ISO image -----------------------------"
-		umount $boot_dir
-		umount $data_dir
+                echo "Unmounting ISO image -----------------------------"
 		umount $iso_mount_dir
-		echo "removing tmp directories -----------------------------"
-		rm -rf $boot_dir
-		rm -rf $data_dir
-		rm -rf $iso_mount_dir
 		echo "DONE -----------------------------"
 	else
 		echo "Device still mounted, please unmount the device. -----------------------------"
