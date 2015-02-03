@@ -1,5 +1,5 @@
 # centos7-iso-repack
-Tool for repacking CentOS 7 iso, adding KICSTART config of your choice, editing INSTALL menu to automatically boot your install with KS. All this also possible writing ISO with KS configuration to USB flash. 
+Tool for repacking CentOS 7 iso, adding KICKSTART config of your choice, editing INSTALL menu to automatically boot your install with KS. All this also possible writing ISO with KS configuration to USB flash. 
 
 !!! WORD of CAUTION. Using usb flash creation skript is very DANGEROUS if you dont know what you are doing. If you specify the wrong device, it will wipe the specified disks clean!!!!
 
